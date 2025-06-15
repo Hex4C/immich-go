@@ -1,0 +1,19 @@
+# **from-icloud** sub command:
+
+The **from-icloud** sub-command processes an ICloud takeout.
+
+| **Parameter**        |           **Default value**           | **Description**                                                                                                                                                                        |
+| -------------------- | :-----------------------------------: | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| --memories           |                `FALSE`                | Import icloud memories as albums                                                                                                                                                       |
+| --ban-file           | [See banned files](#banned-file-list) | Exclude a file based on a pattern (case-insensitive). Can be specified multiple times.                                                                                                 |
+| --date-from-name     |                `TRUE`                 | Use the date from the filename if the date isn't available in the metadata (Only for jpg, mp4, heic, dng, cr2, cr3, arw, raf, nef, mov).                                               |
+| --date-range         |                                       | Only import photos taken within the specified date range. [See date range possibilities](#date-range)                                                                                  |
+| --exclude-extensions |                                       | Comma-separated list of extension to exclude. (e.g. .gif,.PM)                                                                                                                          |
+| --include-extensions |                 `all`                 | Comma-separated list of extension to include. (e.g. .jpg,.heic)                                                                                                                        |
+| --include-type       |                 `all`                 | Single file type to include. (`VIDEO` or `IMAGE`)                                                                                                                                      |
+| --into-album         |                                       | Specify an album to import all files into                                                                                                                                              |
+| --manage-burst       |                                       | Manage burst photos. Possible values: NoStack, Stack, StackKeepRaw, StackKeepJPEG.  [See option's details](#burst-detection-and-management)                                            |
+| --manage-heic-jpeg   |                                       | Manage coupled HEIC and JPEG files. Possible values: NoStack, KeepHeic, KeepJPG, StackCoverHeic, StackCoverJPG.     [See option's details](#management-of-coupled-heic-and-jpeg-files) |
+| --manage-raw-jpeg    |                                       | Manage coupled RAW and JPEG files. Possible values: NoStack, KeepRaw, KeepJPG, StackCoverRaw, StackCoverJPG. [See options's details](#management-of-coupled-raw-and-jpeg-files)        |
+| --session-tag        |                                       | Tag uploaded photos with a tag "{immich-go}/YYYY-MM-DD HH-MM-SS"                                                                                                                       |
+| --tag                |                                       | Add tags to the imported assets. Can be specified multiple times. Hierarchy is supported using a / separator (e.g. 'tag1/subtag1')                                                     |
