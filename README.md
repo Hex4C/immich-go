@@ -4,7 +4,7 @@
 
 > ⚠️ This is an early version, not yet extensively tested. Keep a backup copy of your files for safety<br>
 
-## 💗 Support the project `Immich-go`
+## ❤️ Support the project `Immich-go`
 
 * [GitHub Sponsor](https://github.com/sponsors/simulot)
 * [PayPal Donation](https://www.paypal.com/donate/?hosted_button_id=VGU2SQE88T2T4)
