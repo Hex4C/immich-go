@@ -34,9 +34,7 @@
         * [from-icould](docs/commands/subcommands/from-icloud.md)
         * [from-immich](docs/commands/subcommands/from-immich.md)
         * [from-picasa](docs/commands/subcommands/from-picasa.md)
-* **Examples**
-    * [Examples](docs/examples.md)
-* [**Advanced Topics**](docs/advanced-topics.md)
+* [Examples](docs/examples.md)
 
 ## ❤️ Acknowledgments
 
