@@ -1,19 +1,5 @@
 # Examples
 
-```bash
-## Upload photos from a local folder to your Immich server
-immich-go upload from-folder --server=http://your-ip:2283 --api-key=your-api-key /path/to/your/photos
-
-## Archive photos from your Immich server to a local folder
-immich-go archive from-immich --from-server=http://your-ip:2283 --from-api-key=your-api-key --write-to-folder=/path/to/archive
-
-## Upload a Google Photos takeout to your Immich server
-immich-go upload from-google-photos --server=http://your-ip:2283 --api-key=your-api-key /path/to/your/takeout-*.zip
-```
-
-
-## Additional Examples
-
 #### Importing a Google Takeout with Stacking JPEG and RAW
 
 To import a Google Photos takeout and stack JPEG and RAW files together, with the RAW file as the cover, use the following command:
